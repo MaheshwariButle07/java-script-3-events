@@ -7,15 +7,24 @@
 </head>
 <body>
 
-    <button type="button" onclick="sayHello()">
+    <button type="button" onclick="click1()">
         Show Alert
+    </button>
+
+    <button type="button" ondblclick="click2()">
+        on double click
     </button>
 
     <script>
 
-        function sayHello()
+        function click1()
         {
-            alert('Hello');
+            alert('single click');
+        }
+
+        function click2()
+        {
+            alert('double click');
         }
 
     </script>
